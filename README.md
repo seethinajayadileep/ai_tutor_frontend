@@ -1,24 +1,10 @@
-🚀 AI Voice Tutor — Frontend
-🎤 Speak Your Doubts. 🤖 Get Instant Answers. 🔊 Learn Faster.
+🎓 AI Voice Tutor — Frontend
 
-This is the frontend for the AI Voice Tutor project — a web-based tool where students can talk to an AI tutor and get instant, clear explanations.
+This is the frontend of my AI Voice Tutor project.
+It records the user's voice, sends the audio to the backend, and shows the transcript and AI answer.
+Built using React and deployed on Vercel.
+The frontend connects to the backend API:
+👉 https://ai-tutor-backend-hfu2.onrender.com/uploadFile
 
-The app uses:
-
-🎙️ Browser Microphone to record student questions
-
-🧠 Deepgram (via backend) to convert speech → text
-
-🤖 Claude AI (via backend) to generate tutor-style answers
-
-🔊 Deepgram TTS to convert text → spoken answer
-
-⚡ A fast UI built with React
-
-The backend is deployed separately on Render.
-
-🌐 Live Deployed Frontend
-
+Live Site:
 👉 https://ai-tutor-frontend-amber.vercel.app/
-
-
