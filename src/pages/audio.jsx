@@ -1,7 +1,7 @@
 // VoiceTutorRecorder.jsx
 import React, { useRef, useState } from "react";
 
-const API_BASE = "https://ai-tutor-backend-hfu2.onrender.com/uploadFile"; // your Node.js backend
+const API_BASE = "https://ai-tutor-backend-hfu2.onrender.com"; // your Node.js backend
 
 function VoiceTutorRecorder() {
   const [isRecording, setIsRecording] = useState(false);
