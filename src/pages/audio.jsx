@@ -149,6 +149,7 @@ function VoiceTutorRecorder() {
           <div style={{ marginTop: 16 }}>
             <h4>🔊 Listen Again:</h4>
             <audio controls src={audioUrl} />
+            <div></div>
           </div>
         )}
       </div>
